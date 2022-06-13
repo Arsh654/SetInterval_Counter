@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import DocsUpd from './components/DocsUpd';
+import DocsUpd2 from "./components/DocsUpd2"
+import OpenCounterButton from './components/OpenCounterButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DocsUpd/>
+      <DocsUpd2/>
+      {/* <OpenCounterButton/> */}
     </div>
   );
 }
